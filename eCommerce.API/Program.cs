@@ -26,6 +26,9 @@ public class Program
             option.JsonSerializerOptions.Converters.Add(new System.Text.Json.Serialization.JsonStringEnumConverter());
         });
 
+        builder.Services.AddEndpointsApiExplorer();
+        builder.Services.AddSwaggerGen();
+
         //Build the web application
         var app = builder.Build();
         app.UseExceptionHandlingMiddleware();
@@ -33,6 +36,18 @@ public class Program
         app.UseRouting();
         app.UseAuthentication();
         app.UseAuthorization();
+        if (app.Environment.IsDevelopment())
+        {
+            app.UseSwagger();
+            app.UseSwaggerUI(options =>
+            {
+                options.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
+                options.RoutePrefix = string.Empty;
+
+
+            });
+
+        }
 
         app.MapControllers();
 
