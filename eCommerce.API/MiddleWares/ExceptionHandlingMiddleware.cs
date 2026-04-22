@@ -1,4 +1,4 @@
-﻿namespace eCommerce.API.MiddleWares
+﻿namespace UserService.API.MiddleWares
 {
     public class ExceptionHandlingMiddleware
     {

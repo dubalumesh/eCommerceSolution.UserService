@@ -1,7 +1,7 @@
-﻿using eCommerce.Core.Entities;
+﻿using UserService.Core.Entities;
 
 
-namespace eCommerce.Core.RepositoryContracts
+namespace UserService.Core.RepositoryContracts
 {
     public interface IUserRepository
     {

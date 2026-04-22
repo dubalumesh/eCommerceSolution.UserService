@@ -1,5 +1,4 @@
-﻿
-namespace eCommerce.Core.DTOs
+﻿namespace UserService.Core.DTOs
 {
     public record RegisterRequest(string? Email,
         string? Password,
