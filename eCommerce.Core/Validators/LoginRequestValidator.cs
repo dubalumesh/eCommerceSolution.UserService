@@ -1,12 +1,12 @@
-﻿using eCommerce.Core.DTOs;
-using FluentValidation;
+﻿using FluentValidation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UserService.Core.DTOs;
 
-namespace eCommerce.Core.Validators
+namespace UserService.Core.Validators
 {
     public class LoginRequestValidator : AbstractValidator<LoginRequest>
     {

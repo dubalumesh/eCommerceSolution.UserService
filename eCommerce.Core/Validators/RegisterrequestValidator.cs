@@ -1,7 +1,7 @@
-﻿using eCommerce.Core.DTOs;
-using FluentValidation;
+﻿using FluentValidation;
+using UserService.Core.DTOs;
 
-namespace eCommerce.Core.Validators
+namespace UserService.Core.Validators
 {
     public class RegisterrequestValidator : AbstractValidator<RegisterRequest>
     {

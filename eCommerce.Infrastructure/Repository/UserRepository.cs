@@ -1,12 +1,12 @@
 ﻿using Dapper;
-using eCommerce.Core.DTOs;
-using eCommerce.Core.Entities;
-using eCommerce.Core.RepositoryContracts;
-using eCommerce.Infrastructure.DbContext;
+using UserService.Core.DTOs;
 using System.Collections.Generic;
+using UserService.Core.Entities;
+using UserService.Core.RepositoryContracts;
+using UserService.Infrastructure.DbContext;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace eCommerce.Infrastructure.Repository
+namespace UserService.Infrastructure.Repository
 {
     internal class UserRepository(DapperDbContext _dapperDbContext) : IUserRepository
     {

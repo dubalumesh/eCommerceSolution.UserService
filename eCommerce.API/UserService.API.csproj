@@ -12,11 +12,12 @@
 		<PackageReference Include="AutoMapper" Version="13.0.1" />
 		<PackageReference Include="FluentValidation" Version="12.1.1" />
 		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.22.1" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.4" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\eCommerce.Core\eCommerce.Core.csproj" />
-		<ProjectReference Include="..\eCommerce.Infrastructure\eCommerce.Infrastructure.csproj" />
+		<ProjectReference Include="..\eCommerce.Core\UserService.Core.csproj" />
+		<ProjectReference Include="..\eCommerce.Infrastructure\UserService.Infrastructure.csproj" />
 	</ItemGroup>
 
 </Project>

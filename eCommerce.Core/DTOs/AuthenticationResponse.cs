@@ -1,6 +1,6 @@
 ﻿
 
-namespace eCommerce.Core.DTOs
+namespace UserService.Core.DTOs
 {
     public record AuthenticationResponse
    (Guid UserId, string? Email, string? PersonName, string? Gender, string? Token, bool Sucess)

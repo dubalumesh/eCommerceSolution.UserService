@@ -1,10 +1,10 @@
 ﻿
 
 using AutoMapper;
-using eCommerce.Core.DTOs;
-using eCommerce.Core.Entities;
+using UserService.Core.DTOs;
+using UserService.Core.Entities;
 
-namespace eCommerce.Core.Mappers
+namespace UserService.Core.Mappers
 {
     public class RegisterRequestMappingProfile : Profile
     {

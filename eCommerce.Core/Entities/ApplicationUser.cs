@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace eCommerce.Core.Entities
+namespace UserService.Core.Entities
 {
     /// <summary>
     /// Define the ApplicationUser class, which acts as a data model for representing users in the application. 

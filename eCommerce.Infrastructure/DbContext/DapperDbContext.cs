@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace eCommerce.Infrastructure.DbContext
+namespace UserService.Infrastructure.DbContext
 {
     public class DapperDbContext
     {

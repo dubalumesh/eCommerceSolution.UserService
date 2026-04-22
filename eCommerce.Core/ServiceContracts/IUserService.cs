@@ -1,6 +1,6 @@
-﻿using eCommerce.Core.DTOs;
+﻿using UserService.Core.DTOs;
 
-namespace eCommerce.Core.ServiceContracts
+namespace UserService.Core.ServiceContracts
 {
     /// <summary>
     /// Interface for user-related services, providing methods for user authentication and management.

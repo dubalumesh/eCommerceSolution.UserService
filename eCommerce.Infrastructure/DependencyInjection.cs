@@ -1,15 +1,15 @@
-﻿using eCommerce.Core.RepositoryContracts;
-using eCommerce.Infrastructure.DbContext;
-using eCommerce.Infrastructure.Repository;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UserService.Core.RepositoryContracts;
+using UserService.Infrastructure.DbContext;
+using UserService.Infrastructure.Repository;
 
-namespace eCommerce.Infrastructure
+namespace UserService.Infrastructure
 {
     public static class DependencyInjection
     {

@@ -1,11 +1,11 @@
-﻿using eCommerce.Core.ServiceContracts;
-using eCommerce.Core.Services;
+﻿using UserService.Core.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using eCommerce.Core.Validators;
 using FluentValidation;
+using UserService.Core.Validators;
+using UserService.Core.ServiceContracts;
 
-namespace eCommerce.Core
+namespace UserService.Core
 {
     public static class DependencyInjection
     {
@@ -24,7 +24,7 @@ namespace eCommerce.Core
             // Register your core services here
             // For example:
             // services.AddScoped<IMyService, MyService >();
-            services.AddTransient<IUserService, UserService>();
+            services.AddTransient<IUserService, UserService.Core.Services.UserService>();
 
             return services;
         }

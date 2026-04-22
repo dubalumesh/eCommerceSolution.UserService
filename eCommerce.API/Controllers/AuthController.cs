@@ -1,10 +1,10 @@
-﻿using eCommerce.Core.DTOs;
-using eCommerce.Core.ServiceContracts;
-using FluentValidation;
+﻿using FluentValidation;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using UserService.Core.DTOs;
+using UserService.Core.ServiceContracts;
 
-namespace eCommerce.API.Controllers
+namespace UserService.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
